@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="752.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject4.FXMLController">
+   <children>
+      <ImageView fitHeight="713.0" fitWidth="818.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@female.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="23.0" prefHeight="84.0" prefWidth="660.0" text="To gain more weight follow these 2 for .." textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="116.0" prefHeight="54.0" prefWidth="162.0" text="1 month :" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="272.0" layoutY="235.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="144.0" style="-fx-background-color: #1e2a3d;" text="Diet Plan" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="272.0" layoutY="357.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="144.0" style="-fx-background-color: #1e2a3d;" text="Exercise" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Button>
+      <CheckBox layoutX="29.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="fri" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="135.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="sat" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="230.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="75.0" text="sun" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="325.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" text="mon" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="428.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="tue" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="528.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" text="wed" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="641.0" layoutY="566.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="tur" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="21.0" layoutY="489.0" prefHeight="77.0" prefWidth="608.0" text="Feel this in to track of your excercise :" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

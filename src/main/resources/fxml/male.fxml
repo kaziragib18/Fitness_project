@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="665.0" prefWidth="703.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject4.FXMLController">
+   <children>
+      <ImageView fitHeight="679.0" fitWidth="711.0" layoutX="3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@male.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="51.0" layoutY="-3.0" prefHeight="54.0" prefWidth="660.0" text="To lose more weight follow these 2 for ..">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="420.0" layoutY="54.0" prefHeight="54.0" prefWidth="162.0" text="1 month :">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="diet" layoutX="567.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="60.0" prefWidth="144.0" style="-fx-background-color: #1e2a3d;" text="Diet Plan" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="exercise" layoutX="567.0" layoutY="185.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="60.0" prefWidth="144.0" style="-fx-background-color: #1e2a3d;" text="Exercise" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="3.0" layoutY="269.0" prefHeight="77.0" prefWidth="577.0" text="Feel this in to keep track of your excercise :" textFill="#13e83a">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="27.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="3.0" layoutY="338.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="fri">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="3.0" layoutY="377.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="sat">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="3.0" layoutY="418.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="75.0" text="sun">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="3.0" layoutY="458.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" text="mon">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="7.0" layoutY="495.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="tue">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="3.0" layoutY="530.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" text="wed">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="3.0" layoutY="569.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="67.0" text="tur">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="back2" layoutX="598.0" layoutY="569.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="116.0" style="-fx-background-color: #1e2a3d;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="diet1" layoutX="1.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="60.0" prefWidth="184.0" style="-fx-background-color: #1e2a3d;" text="After 1 month" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

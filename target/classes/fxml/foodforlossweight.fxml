@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="foodforlossweight" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="foodforlossweight" fitHeight="630.0" fitWidth="961.0" layoutX="-1.0" layoutY="-36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@slide_263007_1753225_free.jpg" />
+         </image>
+      </ImageView>
+      <Label prefHeight="78.0" prefWidth="621.0" text="Here is a chart for 1 month Diet :" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutY="51.0" prefHeight="56.0" prefWidth="209.0" text="Morning Rise Up:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="-5.0" layoutY="74.0" prefHeight="66.0" prefWidth="798.0" text="It is always best to start your day with 2 glasses of warm water" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutY="135.0" prefHeight="56.0" prefWidth="304.0" text="Morning Rise Up:(7-7.30)" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutY="170.0" prefHeight="41.0" prefWidth="919.0" text="Detox drinks help flush away those stored unwanted toxins, stored up water" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="-5.0" layoutY="198.0" prefHeight="41.0" prefWidth="930.0" text=" weight and excess sodium from the body." textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutY="225.0" prefHeight="56.0" prefWidth="304.0" text="Morning Rise Up:(8-8.30)" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutY="261.0" prefHeight="41.0" prefWidth="930.0" text="Egg Omelet With Green Tea: Egg is a low-calorie food packed with healthy proteins that" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutY="282.0" prefHeight="41.0" prefWidth="930.0" text="keep you feeling satisfied for long.One large egg contains only about 78 calories" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutY="323.0" prefHeight="41.0" prefWidth="364.0" text="Lunch Time (12.30 PM to 2:00 PM)" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutY="344.0" prefHeight="41.0" prefWidth="930.0" text="One fillet of grilled salmon fish contains around 124 calories.You can relish this with " textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutY="365.0" prefHeight="41.0" prefWidth="419.0" text="1/2 cup of steamed vegetable rice." textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="3.0" layoutY="406.0" prefHeight="56.0" prefWidth="378.0" text="Evening Snack (5:00 – 6:30PM)" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutY="534.0" prefHeight="41.0" prefWidth="364.0" text="Dinner Time (8:00 – 9:30PM)" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="-5.0" layoutY="442.0" prefHeight="41.0" prefWidth="930.0" text=" Orange juice is the healthy way of getting your vitamin C and keeping " textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="-5.0" layoutY="567.0" prefHeight="33.0" prefWidth="930.0" text=" A hot bowl of chicken noodle soup makes a perfect, stomach satisfying dinner" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="-1.0" layoutY="472.0" prefHeight="35.0" prefWidth="386.0" text="calories under control" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="828.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="116.0" style="-fx-background-color: #1e2a3d;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
